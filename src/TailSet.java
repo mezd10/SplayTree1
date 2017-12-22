@@ -1,5 +1,7 @@
 import java.util.*;
 
+//больше либо равно fromElement, вызовет исключение IllegalArgumentException() при попытке вставить элемент вне его диапазона
+
 public class TailSet <T extends Comparable<T>> extends AbstractSet<T> implements SortedSet<T> {
 
     private T fromElement;

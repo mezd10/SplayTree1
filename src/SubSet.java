@@ -1,5 +1,7 @@
 import java.util.*;
 
+//возвращает от fromElement до toElement включительно, будет вызывать IllegalArgumentException() при попытке вставить элемент за пределы его диапазона
+
 public class SubSet  <T extends Comparable<T>> extends AbstractSet<T> implements SortedSet<T>{
 
     private T fromElement;
